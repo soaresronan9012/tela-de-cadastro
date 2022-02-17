@@ -1,0 +1,55 @@
+body{
+    background-image: url("imagens/Imagem\ de\ fundo.jpg");
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    align-items:  center;
+    color: #ffffff;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input,option,select{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#botão{
+    width: 70px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.imagen{
+    display: flex;
+    width: 300px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+#imagemdireita{
+    border-radius: 5px;
+
+}

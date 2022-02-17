@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de loguin de usuário</title>
+</head>
+<body>
+    <header>
+        <h1>Seja Bem vindo(a)!!!</h1>
+    </header>
+
+    <section>
+        <div class="esquerda">
+            <label type="block">Nome Completo</label>
+            <input type="text" name="usuário" placeholder="Nome Completo" autofocus required/>
+            <label type="block">RG</label>
+            <input type="text" name="RG" placeholder="000.000.00-00"  max="10" autofocus required/>
+            <label type="block">CPF</label>
+            <input type="number" name="cpf" placeholder="000.000.00" max="8" autofocus required/>
+            <label type="block">Escolaridade</label>
+            <select name="escolaridade" autofocus required>
+                <option value="primário">Primário</option>
+                <option value="médio">Médio</option>
+                <option value="superior">Superior</option>
+                <option value="pós">Especialização</option>
+            </select>
+            <label type="block">Telefone</label> 
+            <input type="tel" name="tel" placeholder="(00)0000-0000" max="10" autofocus required/>
+            <label type="block">Email</label>
+            <input type="email"  placeholder= "domínio@gmail.com" autofocus required/>
+
+            <div class="botões">
+                <a href="loguin.html" target="_blank" ><input id="botão" type="submit" value="Cadastar"/></a>
+                <input id="reset" type="reset"  value="Limpar cadastro"/>
+            </div>
+            
+        </div>
+
+        <div class="imagen"> 
+            <img id="imagemdireita" src="imagens/imagen direita.jpg"/>
+        </div>
+
+        
+    </section>
+    
+</body>
+</html>
